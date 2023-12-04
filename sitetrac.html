@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRAC Canecas</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <img src="logo trac.png" alt="Logo TRAC">
-                <li><button><a href="#">HOME</a></button></li>
+                <li><button><a href="#home">HOME</a></button></li>
                 <li><button><a href="#produtos">PRODUTOS</a></button></li>
                 <li><button><a href="#sobre">SOBRE</a></button></li>
                 <li><button><a href="#contato">CONTATO</a></button></li>
+                <li><button><a href="#carrinho"><img src="carrinho.png" alt="carrinho"></a></button></li>
+                
             </ul>
         </nav>
     </header>
@@ -25,8 +29,9 @@
             Canecas, Mouse Pads, Almofadas e diversos artigos personalizados e desenvolvidos para momentos únic</p>
         <a href="#produtos">Ver produtos</a>
     </section>
-    <section id="produtos">
+    <section id="produtos" class="produtos-container">
         <h2>Nossos Produtos:</h2>
+        
         <div class="produto">
             <img src="caneca1.jpeg" alt="Caneca 1">
             <h3>Caneca Profissões - TI</h3>
@@ -39,15 +44,28 @@
             <img src="caneca2.jpeg" alt="Caneca 2">
             <h3>Caneca Dia dos Professores</h3>
             <p>Caneca personalizada com design para dia dos professores.</p>
-            <span>R$ 32.00</span>
+            <span>R$ 45.00</span>
             <button>Comprar</button>
         </div>
-
+        <div class="produto">
+            <img src="caneca7.jpeg" alt="Caneca 7">
+            <h3>Caneca Prof Coruja</h3>
+            <p>Caneca personalizada com design para o dia dos professores.</p>
+            <span>R$ 45.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="caneca8.jpeg" alt="Caneca 8">
+            <h3>Caneca Girl Power</h3>
+            <p>Caneca personalizada com design para o dia das mulheres.</p>
+            <span>R$ 35.00</span>
+            <button>Comprar</button>
+        </div>
         <div class="produto">
             <img src="caneca3.jpeg" alt="Caneca 3">
             <h3>Caneca Dia dos Namorados</h3>
             <p>Caneca personalizada com design para dia dos namorados.</p>
-            <span>R$ 40.00</span>
+            <span>R$ 30.00</span>
             <button>Comprar</button>
         </div>
 
@@ -55,9 +73,53 @@
             <img src="caneca4.jpeg" alt="Caneca 4">
             <h3>Caneca Natal</h3>
             <p>Caneca personalizada com design para o Natal.</p>
+            <span>R$ 50.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="caneca5.png" alt="Caneca 5">
+            <h3>Caneca Já é Natal</h3>
+            <p>Caneca personalizada com design para o Natal.</p>
+            <span>R$ 50.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="caneca6.jpeg" alt="Caneca 6">
+            <h3>Caneca Jesus o Verdadeiro Natal</h3>
+            <p>Caneca personalizada com design para o Natal.</p>
+            <span>R$ 50.00</span>
+            <button>Comprar</button>
+        </div>
+        
+        <div class="produto">
+            <img src="caneca9.jpeg" alt="Caneca 9">
+            <h3>Caneca Dona da P@#%@ Toda</h3>
+            <p>Caneca personalizada com design Flork.</p>
             <span>R$ 40.00</span>
             <button>Comprar</button>
         </div>
+        <div class="produto">
+            <img src="caneca10.jpeg" alt="Caneca 10">
+            <h3>Caneca Feliz Páscoa</h3>
+            <p>Caneca personalizada com design para a Páscoa.</p>
+            <span>R$ 35.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="caneca11.jpeg" alt="Caneca 10">
+            <h3>Caneca Mãe é Flor</h3>
+            <p>Caneca personalizada com design para o Dia das Mães.</p>
+            <span>R$ 40.00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="caneca12.jpeg" alt="Caneca 10">
+            <h3>Caneca Prestígio</h3>
+            <p>Caneca personalizada com design para o Dia dos Namorados.</p>
+            <span>R$ 30.00</span>
+            <button>Comprar</button>
+        </div>
+        
 
     </section>
     <section id="sobre">
@@ -89,6 +151,7 @@
                 <input type="text" id="mensagem" name="mensagem" placeholder="Sua mensagem" required>
                 <button type="submit" id="enviar">Enviar</button>
             </div>
+        </div>
     </section>
     <footer>
         <p>&copy; 2023 TRAC Canecas</p>
